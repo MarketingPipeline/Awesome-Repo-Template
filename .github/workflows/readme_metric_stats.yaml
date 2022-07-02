@@ -14,6 +14,7 @@ jobs:
       - uses: lowlighter/metrics@v3.24
         with:
           filename:  metrics.plugin.stargazers.svg
+          stargazers_charts_type: chartist
           token: ${{ secrets.METRICS_TOKEN }}
           
  
