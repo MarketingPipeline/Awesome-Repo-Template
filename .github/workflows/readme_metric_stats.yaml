@@ -14,9 +14,9 @@ jobs:
     steps:
       - uses: lowlighter/metrics@latest
         with:
+        
+          filename: metrics.plugin.stargazers.svg
           token: ${{ secrets.METRICS_TOKEN }}
-          
-          config_octicon: yes
-          
+          base: ""
           plugin_stargazers: yes
-          plugin_contributors: yes
+          
