@@ -7,16 +7,21 @@ on:
   # (optional) Run workflow when pushing on master/main
   push: {branches: ["master", "main"]}
 jobs:
-  github-metrics:
+  metrics:
+    name: 'Update SVGs for Readme stats'
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
     steps:
-      - uses: lowlighter/metrics@latest
+      - uses: lowlighter/metrics@v3.24
         with:
-        
-          filename: metrics.plugin.stargazers.svg
           token: ${{ secrets.METRICS_TOKEN }}
-          base: ""
-          plugin_stargazers: yes
+          template: markdown
+          filename: README.md
+          markdown: TEMPLATE.md
+          markdown_cache: '.github/svg_cache'
           
+          base: ""
+          
+          config_octicon: yes
+          
+          plugin_stargazers: yes
+          plugin_contributors: yes
