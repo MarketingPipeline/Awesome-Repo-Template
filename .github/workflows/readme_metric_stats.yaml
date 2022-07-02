@@ -24,3 +24,17 @@ jobs:
           
           plugin_stargazers: yes
           plugin_contributors: yes
+
+      - uses: lowlighter/metrics@v3.24
+        with:
+          filename:  metrics.plugin.contributors.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          
+ 
+          
+          base: ""
+          
+          config_octicon: yes
+      
+ 
+          plugin_contributors: yes
