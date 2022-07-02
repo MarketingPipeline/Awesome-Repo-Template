@@ -13,8 +13,9 @@ jobs:
     steps:
       - uses: lowlighter/metrics@v3.24
         with:
+          filename: ./github/svg_cache/metrics.svg
           token: ${{ secrets.METRICS_TOKEN }}
-          filename: "./github/svg_cache/metrics.svg"
+          
  
           
           base: ""
