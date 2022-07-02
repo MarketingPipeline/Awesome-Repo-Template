@@ -14,10 +14,8 @@ jobs:
       - uses: lowlighter/metrics@v3.24
         with:
           token: ${{ secrets.METRICS_TOKEN }}
-          template: markdown
-          filename: README.md
-          markdown: TEMPLATE.md
-          markdown_cache: '.github/svg_cache'
+          filename: "./github/svg_cache"
+ 
           
           base: ""
           
