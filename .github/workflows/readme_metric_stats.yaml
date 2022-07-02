@@ -13,7 +13,7 @@ jobs:
     steps:
       - uses: lowlighter/metrics@v3.24
         with:
-          filename: ./github/svg_cache/metrics.svg
+          filename:  metrics.plugin.stargazers.svg
           token: ${{ secrets.METRICS_TOKEN }}
           
  
