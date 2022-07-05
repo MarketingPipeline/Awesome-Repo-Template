@@ -1,10 +1,5 @@
 # Awesome-Repo-Template
-
-
-<div align="center"
-<a href="https://github.com/MarketingPipeline/Awesome-Repo-Template" ><img height="300px"
-       src="https://user-images.githubusercontent.com/86180097/177226706-2948933e-d3fc-4940-9f62-fab83bea48fe.png"
-    /> </img></a> </div>  
+<img height=350 alt="Repo Banner - Awesome Repo Template" src="https://capsule-render.vercel.app/api?type=waving&color=03a9f4&height=300&section=header&text=Awesome Repo Template&fontSize=70&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Easily setup your next repo!&descAlignY=60&descAlign=50"></img>
 
 <p align="center">
   <b>A awesome repo template to use for your next project</b>
@@ -141,7 +136,7 @@ Create a Personal Access Token & create a secret in this repo called "METRICS_TO
 
 ## Contributing ![GitHub](https://img.shields.io/github/contributors/MarketingPipeline/Awesome-Repo-Template)
 
-Want to improve this project? Create a pull request with detailed changes / improvements! If approved you will be added to the list of contributors of this awesome project!
+Want to improve this template? Create a pull request with detailed changes / improvements! If approved you will be added to the list of contributors of this awesome repo template!
 
 See also the list of
 [contributors](https://github.com/MarketingPipeline/Awesome-Repo-Template/graphs/contributors) who
