@@ -62,7 +62,7 @@ jobs:
         if: ${{  github.event.inputs.Generate_Metrics_File  == 'true' }}
         
         run: |
-          git mv ~/work/Awesome-Repo-Template/Awesome-Repo-Template/metrics.plugin.stargazers.svg ~/work/Awesome-Repo-Template/Awesome-Repo-Template/.github
+          git mv ~/work/${{ github.event.repository.name }}/${{ github.event.repository.name }}/metrics.plugin.stargazers.svg ~/work/${{ github.event.repository.name }}/${{ github.event.repository.name }}/.github
     
 
       ### Table Of Contents    
