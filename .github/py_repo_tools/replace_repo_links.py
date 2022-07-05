@@ -1,9 +1,27 @@
+# Python program to read
+# json file
+  
+  
+import json
+  
+# Opening JSON file
+f = open('repo_config.json')
+  
+# returns JSON object as 
+# a dictionary
+config = json.load(f)
+  
+
 # Define the filename here you want to replace content in
 FileName = "README.md"
 
-Text_To_Replace = "MarketingPip/Awesome-Repo-Template"
+Text_To_Replace = config['Text_To_Replace']
 
-Text_To_Replace_With = "MarketingPip/Awesome-Repo-Template"
+Text_To_Replace_With = config['Text_To_Replace_With']
+
+# Closing file
+f.close()
+
 
 # Open the File
 with open(FileName, 'r') as f:
