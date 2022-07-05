@@ -2,7 +2,7 @@
 
 
 <div align="center"
-<a href="https://github.com/MarketingPipeline/Media-Element.js" ><img height="300px"
+<a href="https://github.com/MarketingPipeline/Awesome-Repo-Template" ><img height="300px"
        src="https://user-images.githubusercontent.com/86180097/177226706-2948933e-d3fc-4940-9f62-fab83bea48fe.png"
     /> </img></a> </div>  
 
@@ -22,11 +22,11 @@
   <br>
   <small> <b><i>Show your support!</i> </b></small>
   <br>
-   <a href="https://github.com/MarketingPipeline/Media-Element.js">
-    <img title="Star on GitHub" src="https://img.shields.io/github/stars/MarketingPipeline/Media-Element.js.svg?style=social&label=Star">
+   <a href="https://github.com/MarketingPipeline/Awesome-Repo-Template">
+    <img title="Star on GitHub" src="https://img.shields.io/github/stars/MarketingPipeline/Awesome-Repo-Template.svg?style=social&label=Star">
   </a>
   <a href="https://github.com/MarketingPipeline/Awesome-Repo-Template/fork">
-    <img title="Fork on GitHub" src="https://img.shields.io/github/forks/MarketingPipeline/Media-Element.js.svg?style=social&label=Fork">
+    <img title="Fork on GitHub" src="https://img.shields.io/github/forks/MarketingPipeline/Awesome-Repo-Template.svg?style=social&label=Fork">
   </a>
    </p>  
 
@@ -35,11 +35,13 @@
 ## Table Of Contents
 
 <!------- Table Of Contents Will Auto Generate In Side Of Here ---- >
+
 <!-- toc -->
 
-- [Example and usage](#example-and-usage)
-- [Contributing ![GitHub](https://img.shields.io/github/contributors/MarketingPipeline/Media-Element.js)](#contributing-githubhttpsimgshieldsiogithubcontributorsmarketingpipelinemedia-elementjs)
-- [License ![GitHub](https://img.shields.io/github/license/MarketingPipeline/Media-Element.js)](#license-githubhttpsimgshieldsiogithublicensemarketingpipelinemedia-elementjs)
+- [Features](#features)
+- [Usage](#usage)
+- [Contributing ![GitHub](https://img.shields.io/github/contributors/MarketingPipeline/Awesome-Repo-Template)](#contributing-githubhttpsimgshieldsiogithubcontributorsmarketingpipelineawesome-repo-template)
+- [License ![GitHub](https://img.shields.io/github/license/MarketingPipeline/Awesome-Repo-Template)](#license-githubhttpsimgshieldsiogithublicensemarketingpipelineawesome-repo-template)
 
 <!-- tocstop -->
 
@@ -137,7 +139,7 @@ Create a Personal Access Token & create a secret in this repo called "METRICS_TO
 
 
 
-## Contributing ![GitHub](https://img.shields.io/github/contributors/MarketingPipeline/Media-Element.js)
+## Contributing ![GitHub](https://img.shields.io/github/contributors/MarketingPipeline/Awesome-Repo-Template)
 
 Want to improve this project? Create a pull request with detailed changes / improvements! If approved you will be added to the list of contributors of this awesome project!
 
@@ -145,7 +147,7 @@ See also the list of
 [contributors](https://github.com/MarketingPipeline/Awesome-Repo-Template/graphs/contributors) who
 participate in this project.
 
-## License ![GitHub](https://img.shields.io/github/license/MarketingPipeline/Media-Element.js)
+## License ![GitHub](https://img.shields.io/github/license/MarketingPipeline/Awesome-Repo-Template)
 
 This project is licensed under the GPL-3.0 License - see the
 [LICENSE.md](https://github.com/MarketingPipeline/Awesome-Repo-Template/blob/main/LICENSE) file for
