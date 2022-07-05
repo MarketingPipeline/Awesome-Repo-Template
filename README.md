@@ -4,11 +4,20 @@
 <div align="center"
 <a href="https://github.com/MarketingPipeline/Media-Element.js" ><img height="300px"
        src="https://user-images.githubusercontent.com/86180097/177226706-2948933e-d3fc-4940-9f62-fab83bea48fe.png"
-    /> </img></a> 
-  </div>  
-    
+    /> </img></a> </div>  
+
+[![Github license](https://img.shields.io/github/license/gfmio/awesome-github-template.svg "Github license")](https://github.com/gfmio/awesome-github-template/blob/master/LICENSE)
+[![Open issues](https://img.shields.io/github/issues/gfmio/awesome-github-template.svg "Open issues")](https://github.com/gfmio/awesome-github-template/issues)
+[![Closed issues](https://img.shields.io/github/issues-closed/gfmio/awesome-github-template.svg "Closed issues")](https://github.com/gfmio/awesome-github-template/issues?utf8=✓&q=is%3Aissue+is%3Aclosed)
+[![Open Pull Requests](https://img.shields.io/github/issues-pr/gfmio/awesome-github-template.svg "Open Pull Requests")](https://github.com/gfmio/awesome-github-template/pulls)
+[![Closed Pull Requests](https://img.shields.io/github/issues-pr-closed/gfmio/awesome-github-template.svg "Closed Pull Requests")](https://github.com/gfmio/awesome-github-template/pulls?utf8=✓&q=is%3Apr+is%3Aclosed)
+[![Commit activity](https://img.shields.io/github/commit-activity/m/gfmio/awesome-github-template.svg "Commit activity")](https://github.com/gfmio/awesome-github-template/graphs/commit-activity)
+[![GitHub contributors](https://img.shields.io/github/contributors/gfmio/awesome-github-template.svg "Github contributors")](https://github.com/gfmio/awesome-github-template/graphs/contributors)
+[![Last commit](https://img.shields.io/github/last-commit/gfmio/awesome-github-template.svg "Last commit")](https://github.com/gfmio/awesome-github-template/commits/master)
+
+
 <p align="center">
-  <b>An awesome repo template for your next project!</b>
+  <b>A awesome repo template to use for your next project</b>
 
   <br>
   <small> <b><i>Show your support!</i> </b></small>
@@ -22,11 +31,10 @@
    </p>  
 
 
-A awesome repo template to use for your next project
 
+## Table Of Contents
 
 <!------- Table Of Contents Will Auto Generate In Side Of Here ---- >
-
 <!-- toc -->
 
 - [Example and usage](#example-and-usage)
@@ -35,7 +43,25 @@ A awesome repo template to use for your next project
 
 <!-- tocstop -->
 
-## Example and usage
+## Features
+
+- A configurable workflow action to:  
+  - update all links with your own with EASE!
+  - generate table of contents
+  - generate metrics
+- [Pull request template](.github/pull_request_template.md)
+- Issue templates for [bug reports](.github/ISSUE_TEMPLATE/bug_report.md) and
+  [feature requests](.github/ISSUE_TEMPLATE/feature_request.md)
+- [Contributor guidelines](CONTRIBUTING.md)
+- [Code of Conduct](CODE_OF_CONDUCT.md)
+  ([Contributor Covenant](https://www.contributor-covenant.org/))
+- [This readme](README.md)
+- [License file](LICENSE) 
+
+
+
+
+## Usage
 
 
 
@@ -72,7 +98,7 @@ To generate tables of contents automatically use anywhere in your README.md file
 &lt;!-- tocstop -->
 
 
-And when running the Repo Generator - set Metrics to <code>true</code> 
+And when running the Repo Generator in [actions](/actions) - set Metrics to <code>true</code> 
 
 
 <b><i>Note:</i></b> Only 1 table of contents can be generated in a README 
