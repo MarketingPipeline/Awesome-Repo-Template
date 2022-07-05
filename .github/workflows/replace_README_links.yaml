@@ -26,7 +26,7 @@ jobs:
     runs-on: ubuntu-20.04
     steps:
       - uses: actions/checkout@v2
-      - name: Run-me if FLAG is true
+      - name: Updating links in README content
         if: ${{  github.event.inputs.Directory_To_Get_HTML_File == 'true' }}
         run: |
           sudo apt-get install python3
