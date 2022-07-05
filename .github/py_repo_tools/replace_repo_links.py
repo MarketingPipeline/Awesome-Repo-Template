@@ -1,7 +1,7 @@
 # Define the filename here you want to replace content in
 FileName = "README.md"
 
-Text_To_Replace = "MarketingPip/Awesome-Repo-Templat"
+Text_To_Replace = "MarketingPip/Awesome-Repo-Template"
 
 Text_To_Replace_With = "MarketingPip/Awesome-Repo-Template"
 
