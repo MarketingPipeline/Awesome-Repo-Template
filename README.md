@@ -38,7 +38,7 @@
 
 
 
-## Example and Usage
+## Example & Usage
 
 
 
