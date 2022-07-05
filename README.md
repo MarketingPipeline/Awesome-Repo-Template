@@ -12,10 +12,10 @@ You prove that the Recent-Activity Action has some value for you!
 
 ### Stargazers
 
-[<img src="https://github.com/MarketingPip/Awesome-Repo-Templat/blob/main/metrics.plugin.stargazers.svg">][stargazers]
+[<img src="https://github.com/MarketingPip/Awesome-Repo-Template/blob/main/metrics.plugin.stargazers.svg">][stargazers]
 
 ### Contributors
 
 
-[<img src="https://github.com/MarketingPip/Awesome-Repo-Templat/blob/main/metrics.plugin.stargazers.svg">][contributors]
+[<img src="https://github.com/MarketingPip/Awesome-Repo-Template/blob/main/metrics.plugin.stargazers.svg">][contributors]
 test
