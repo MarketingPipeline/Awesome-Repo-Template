@@ -6,20 +6,20 @@ on:
        Replace_Links_In_Markdown:
          description: 'Update all links'
          required: false
-         default: 'true'
+         default: 'False'
        Update_Code_Of_Conduct_EMAIL:
          description: 'Update Code Of Conduct Email'
          required: false
-         default: 'false'  
+         default: 'False'  
        Generate_Table_Of_Contents:
         description: 'Generate Table Of Contents'
         required: false
-        default: 'true'
+        default: 'False'
         
        Generate_Metrics_File:
         description: 'Generate Metrics Image File'
         required: false
-        default: 'false'
+        default: 'False'
 
 
 jobs:
@@ -62,8 +62,7 @@ jobs:
         if: ${{  github.event.inputs.Generate_Metrics_File  == 'true' }}
         
         run: |
-          git fetch git reset --hard origin/master
-          git mv ~/work/${{ github.event.repository.name }}/${{ github.event.repository.name }}/metrics.plugin.stargazers.svg ~/work/${{ github.event.repository.name }}/${{ github.event.repository.name }}/.github
+          git mv -f ~/work/${{ github.event.repository.name }}/${{ github.event.repository.name }}/metrics.plugin.stargazers.svg ~/work/${{ github.event.repository.name }}/${{ github.event.repository.name }}/.github
     
 
       ### Table Of Contents    
