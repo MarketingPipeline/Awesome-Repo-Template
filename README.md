@@ -15,30 +15,11 @@
   </a>
    </p>  
 
-[![Github license](https://img.shields.io/github/license/MarketingPipeline/Awesome-Repo-Template.svg "Github license")](https://github.com/MarketingPipeline/Awesome-Repo-Template/blob/master/LICENSE)
-[![Open issues](https://img.shields.io/github/issues/MarketingPipeline/Awesome-Repo-Template.svg "Open issues")](https://github.com/MarketingPipeline/Awesome-Repo-Template/issues)
-[![Closed issues](https://img.shields.io/github/issues-closed/MarketingPipeline/Awesome-Repo-Template.svg "Closed issues")](https://github.com/MarketingPipeline/Awesome-Repo-Template/issues?utf8=✓&q=is%3Aissue+is%3Aclosed)
-[![Open Pull Requests](https://img.shields.io/github/issues-pr/MarketingPipeline/Awesome-Repo-Template.svg "Open Pull Requests")](https://github.com/MarketingPipeline/Awesome-Repo-Template/pulls)
-[![Closed Pull Requests](https://img.shields.io/github/issues-pr-closed/MarketingPipeline/Awesome-Repo-Template.svg "Closed Pull Requests")](https://github.com/MarketingPipeline/Awesome-Repo-Template/pulls?utf8=✓&q=is%3Apr+is%3Aclosed)
-[![Commit activity](https://img.shields.io/github/commit-activity/m/MarketingPipeline/Awesome-Repo-Template.svg "Commit activity")](https://github.com/MarketingPipeline/Awesome-Repo-Template/graphs/commit-activity)
-[![GitHub contributors](https://img.shields.io/github/contributors/MarketingPipeline/Awesome-Repo-Template.svg "Github contributors")](https://github.com/MarketingPipeline/Awesome-Repo-Template/graphs/contributors)
-[![Last commit](https://img.shields.io/github/last-commit/MarketingPipeline/Awesome-Repo-Template.svg "Last commit")](https://github.com/MarketingPipeline/Awesome-Repo-Template/commits/master)
 
 
 
 
-## Table Of Contents
 
-<!------- Table Of Contents Will Auto Generate In Side Of Here ---- >
-
-<!-- toc -->
-
-- [Features](#features)
-- [Usage](#usage)
-- [Contributing ![GitHub](https://img.shields.io/github/contributors/MarketingPipeline/Awesome-Repo-Template)](#contributing-githubhttpsimgshieldsiogithubcontributorsmarketingpipelineawesome-repo-template)
-- [License ![GitHub](https://img.shields.io/github/license/MarketingPipeline/Awesome-Repo-Template)](#license-githubhttpsimgshieldsiogithublicensemarketingpipelineawesome-repo-template)
-
-<!-- tocstop -->
 
 ## Features
 
@@ -51,15 +32,13 @@
   [feature requests](.github/ISSUE_TEMPLATE/feature_request.md)
 - [Contributor guidelines](CONTRIBUTING.md)
 - [Code of Conduct](CODE_OF_CONDUCT.md)
-  ([Contributor Covenant](https://www.contributor-covenant.org/))
 - [This readme](README.md)
 - [License file](LICENSE) 
 
 
 
 
-## Usage
-
+## Example and Usage
 
 
 
@@ -76,7 +55,7 @@
  ![image](https://user-images.githubusercontent.com/86180097/177250629-591f1808-f332-4faf-bf27-800421b72072.png)
  
 </details>	
-	
+
 <br>	 
 <br>	 
 	
@@ -88,6 +67,20 @@ Edit the repo_config.json file & set the value for "REPLACE_TEXT_WITH" - to your
        MyUserName/My-Repo-Name
 
 And run the Repo Generator in Actions and make sure "Update all links" is set to <code> true</code>
+ <br>	 <br>	 <br>	 <br>	 <br>	 <br>	 <br>	 <br>	 <br>	
+</details>
+
+<br>	 
+<br>	 
+	
+<details><summary>How to replace <b>e-mail</b> in <a href="CODE_OF_CONDUCT.md">Code of Conduct</a> with your own:</summary>
+<br>	
+	
+Edit the repo_config.json file & set the value for "CODE_OF_CONDUCT_EMAIL" - to your e-mail address like the following example. 
+
+       hello_world@github.com
+
+And run the Repo Generator in Actions and make sure "Update Code Of Conduct Info" is set to <code> true</code>
  <br>	 <br>	 <br>	 <br>	 <br>	 <br>	 <br>	 <br>	 <br>	
 </details>
  <br>		
@@ -120,12 +113,14 @@ And when running the Repo Generator in Actions - set "Generate Table Of Contents
 <br>	 
 <br>	 
 	
-<details><summary>How to Generate<b>Metrics</b>:</summary>
+<details><summary>How to Generate a <b>Metrics Image</b>:</summary>
 <br>	
  
 Create a Personal Access Token & create a repo secret called "METRICS_TOKEN" & when running the Repo Generator - set "Generate Metrics Image File" to <code>true</code> 
 
-<img src="https://github.com/MarketingPip/Awesome-Repo-Template/blob/main/metrics.plugin.stargazers.svg"></img>
+You will have an output that looks like this!
+
+<img src="metrics.plugin.stargazers.svg"></img>
 
 
 
@@ -133,9 +128,44 @@ Create a Personal Access Token & create a repo secret called "METRICS_TOKEN" & w
 </details>
 
 
-	
+<br>	 <br>	 <br>	 <br>	 <br>	 <br>	 <br>	 <br>	 <br>		
 </details>
+	
+<br>	 
+	
+<details><summary>Shield.io Buttons:</summary>
+<br>
 
+<!--Copy & paste whatever buttons you need!-->
+
+[![Github license](https://img.shields.io/github/license/MarketingPipeline/Awesome-Repo-Template.svg "Github license")](https://github.com/MarketingPipeline/Awesome-Repo-Template/blob/master/LICENSE)
+[![Open issues](https://img.shields.io/github/issues/MarketingPipeline/Awesome-Repo-Template.svg "Open issues")](https://github.com/MarketingPipeline/Awesome-Repo-Template/issues)
+[![Closed issues](https://img.shields.io/github/issues-closed/MarketingPipeline/Awesome-Repo-Template.svg "Closed issues")](https://github.com/MarketingPipeline/Awesome-Repo-Template/issues?utf8=✓&q=is%3Aissue+is%3Aclosed)
+[![Open Pull Requests](https://img.shields.io/github/issues-pr/MarketingPipeline/Awesome-Repo-Template.svg "Open Pull Requests")](https://github.com/MarketingPipeline/Awesome-Repo-Template/pulls)
+[![Closed Pull Requests](https://img.shields.io/github/issues-pr-closed/MarketingPipeline/Awesome-Repo-Template.svg "Closed Pull Requests")](https://github.com/MarketingPipeline/Awesome-Repo-Template/pulls?utf8=✓&q=is%3Apr+is%3Aclosed)
+[![Commit activity](https://img.shields.io/github/commit-activity/m/MarketingPipeline/Awesome-Repo-Template.svg "Commit activity")](https://github.com/MarketingPipeline/Awesome-Repo-Template/graphs/commit-activity)
+[![GitHub contributors](https://img.shields.io/github/contributors/MarketingPipeline/Awesome-Repo-Template.svg "Github contributors")](https://github.com/MarketingPipeline/Awesome-Repo-Template/graphs/contributors)
+[![Last commit](https://img.shields.io/github/last-commit/MarketingPipeline/Awesome-Repo-Template.svg "Last commit")](https://github.com/MarketingPipeline/Awesome-Repo-Template/commits/master)
+
+
+</details>
+	
+<br>	 
+	 
+
+<details><summary>Auto Generated Table Of Contents <b> Demo</b>:</summary>
+<br>
+<!------- Table Of Contents Will Auto Generate In Side Of Here ---- >
+
+<!-- toc -->
+
+- [Features](#features)
+- [Usage](#usage)
+- [Contributing ![GitHub](https://img.shields.io/github/contributors/MarketingPipeline/Awesome-Repo-Template)](#contributing-githubhttpsimgshieldsiogithubcontributorsmarketingpipelineawesome-repo-template)
+- [License ![GitHub](https://img.shields.io/github/license/MarketingPipeline/Awesome-Repo-Template)](#license-githubhttpsimgshieldsiogithublicensemarketingpipelineawesome-repo-template)
+
+<!-- tocstop -->
+</details>
 
 
 
