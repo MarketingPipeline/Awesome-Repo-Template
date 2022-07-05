@@ -5,11 +5,14 @@ Text_To_Replace = "MarketingPip/Awesome-Repo-Template"
 
 Text_To_Replace_With = "MarketingPip/Awesome-Repo-Template"
 
-
+# Open the File
 with open(FileName, 'r') as f:
+    # Read the file contents
     contents = f.read()
-    # Define the first line where your content will be replaced / added 
-    contents = contents.replace('Media-Element.js/media-element.min.js', 'version/1.0.1/src/media-elements.js')
-    
+    # Replace the file contents
+    contents = contents.replace(Text_To_Replace, Text_To_Replace_With)
+
+# Write the file out    
 with open(FileName, 'w') as f:
+    # Write the updated contents
     f.write(contents)  
