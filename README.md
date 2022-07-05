@@ -38,7 +38,7 @@
 
 
 
-## How to use
+## Example and Usage
 
 
 
