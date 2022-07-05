@@ -62,6 +62,7 @@ jobs:
         if: ${{  github.event.inputs.Generate_Metrics_File  == 'true' }}
         
         run: |
+          git fetch git reset --hard origin/master
           git mv ~/work/${{ github.event.repository.name }}/${{ github.event.repository.name }}/metrics.plugin.stargazers.svg ~/work/${{ github.event.repository.name }}/${{ github.event.repository.name }}/.github
     
 
