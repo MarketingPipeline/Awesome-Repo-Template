@@ -100,7 +100,7 @@ To generate tables of contents automatically use anywhere in your README.md file
 &lt;!-- tocstop -->
 
 
-And when running the Repo Generator in [actions](/actions) - set Metrics to <code>true</code> 
+And when running the Repo Generator in [actions](actions) - set Metrics to <code>true</code> 
 
 
 <b><i>Note:</i></b> Only 1 table of contents can be generated in a README 
