@@ -1,4 +1,4 @@
-name: Replace README links
+name: Test 71485088
 
 on:
    workflow_dispatch:
@@ -21,25 +21,26 @@ on:
 
 
 jobs:
-  build:
-    
-    runs-on: ubuntu-latest
-
-    steps: 
-      - if: ${{ github.event.inputs.Directory_To_Get_HTML_File == 'true' }}
-      - run: sudo apt-get install python3
+  test_job:
+    name: Test
+    runs-on: ubuntu-20.04
+    steps:
       - uses: actions/checkout@v2
-      - name: Replacing README links 
-    # Run the Python Script
-      - run: python3 .github/py_repo_tools/replace_repo_links.py
-      - if: ${{ github.event.inputs.Directory_To_Get_HTML_File == 'false' }}
-      - run: echo "hello"
- 
-
-      - name: Commit and Push Updated Content 
+      - name: Run-me if FLAG is true
+        if: ${{  github.event.inputs.Directory_To_Get_HTML_File == 'true' }}
         run: |
-         git config --global user.name "github-actions[bot]"
-         git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-         git add -A
-         git commit -m "Updated links in README content"
-         git push
+          sudo apt-get install python3
+          python3 .github/py_repo_tools/replace_repo_links.py
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "Updated links in README content"
+          git push
+      - name: Run-me if FLAG is false
+        if: ${{  github.event.inputs.Directory_To_Get_HTML_File  == 'false' }}
+        run: |
+          echo "FALSE"
+          # some logic to run if flag==true
+
+
+
