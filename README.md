@@ -146,7 +146,7 @@ You will have an output that looks like this!
 [![Commit activity](https://img.shields.io/github/commit-activity/m/MarketingPipeline/Awesome-Repo-Template.svg "Commit activity")](https://github.com/MarketingPipeline/Awesome-Repo-Template/graphs/commit-activity)
 [![GitHub contributors](https://img.shields.io/github/contributors/MarketingPipeline/Awesome-Repo-Template.svg "Github contributors")](https://github.com/MarketingPipeline/Awesome-Repo-Template/graphs/contributors)
 [![Last commit](https://img.shields.io/github/last-commit/MarketingPipeline/Awesome-Repo-Template.svg "Last commit")](https://github.com/MarketingPipeline/Awesome-Repo-Template/commits/master)
-
+<img alt="Custom Shield.io Button" src="https://img.shields.io/badge/Custom-Button-blue.svg?style=flat-square"></img>
 
 </details>
 	
