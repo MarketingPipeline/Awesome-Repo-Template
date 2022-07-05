@@ -4,12 +4,16 @@ https://github.com/lowlighter/metrics/blob/master/.github/readme/partials/docume
 
 
 
-<!------- Table Of Contents Will Auto Generate In Side Of Here ---- > 
+<!------- Table Of Contents Will Auto Generate In Side Of Here ---- >
+
 <!-- toc -->
 
+- [Awesome-Repo-Template](#awesome-repo-template)
+  * [Supporters](#supporters)
+    + [Stargazers](#stargazers)
+    + [Contributors](#contributors)
 
 <!-- tocstop -->
-
 
 # Awesome-Repo-Template
 
