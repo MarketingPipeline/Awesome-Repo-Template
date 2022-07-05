@@ -3,7 +3,7 @@ FileName = "README.md"
 
 Text_To_Replace = "MarketingPip/Awesome-Repo-Template"
 
-Text_To_Replace_With = "MarketingPip/Awesome-Repo-Template"
+Text_To_Replace_With = "MarketingPip/Awesome-Repo-Templat"
 
 # Open the File
 with open(FileName, 'r') as f:
