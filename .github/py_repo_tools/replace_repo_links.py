@@ -1,9 +1,9 @@
 # Define the filename here you want to replace content in
 FileName = "README.md"
 
-Text_To_Replace = ""
+Text_To_Replace = "MarketingPip/Awesome-Repo-Template"
 
-Text_To_Replace_With = ""
+Text_To_Replace_With = "MarketingPip/Awesome-Repo-Template"
 
 
 with open(FileName, 'r') as f:
