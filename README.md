@@ -69,14 +69,26 @@
 <details><summary>How to use this <b>template</b>:</summary>
  <br>		
  
+ To run any of these tasks you MUST be in the <b>Action workflow section</b>
+ 
+ <details><summary>How to access <b>Action Workflow</b></summary>
+ 
+ ![image](https://user-images.githubusercontent.com/86180097/177250629-591f1808-f332-4faf-bf27-800421b72072.png)
+ 
+</details>	
 	
 <br>	 
 <br>	 
 	
 <details><summary>How to replace all <b>links</b> with your own:</summary>
+<br>	
 	
-Edit the repo_config.json file & set "REPLACE_TEXT_WITH" - to your username & repo name like so "MyUserName/My-Repo-Name"
+Edit the repo_config.json file & set the value for "REPLACE_TEXT_WITH" - to your username & repo name like the following example 
 
+       MyUserName/My-Repo-Name
+
+
+And run the Repo Generator in Actions and make sure Replace Text is set to <code> true</code>
  <br>	 <br>	 <br>	 <br>	 <br>	 <br>	 <br>	 <br>	 <br>	
 </details>
  <br>		
@@ -86,7 +98,7 @@ Edit the repo_config.json file & set "REPLACE_TEXT_WITH" - to your username & re
 <br>	 
 	
 <details><summary>How to generate <b>Table Of Contents</b>:</summary>
-	
+<br>	
 To generate tables of contents automatically use anywhere in your README.md file a comment like so
 
    
@@ -95,7 +107,7 @@ To generate tables of contents automatically use anywhere in your README.md file
 &lt;!-- tocstop -->
 
 
-And when running the Repo Generator in [actions](actions) - set Metrics to <code>true</code> 
+And when running the Repo Generator in Actions - set Metrics to <code>true</code> 
 
 
 <b><i>Note:</i></b> Only 1 table of contents can be generated in a README 
@@ -110,9 +122,9 @@ And when running the Repo Generator in [actions](actions) - set Metrics to <code
 <br>	 
 	
 <details><summary>How to Generate<b>Metrics</b>:</summary>
-	
+<br>	
  
-Create a Personal Access Token & create a secret in this repo called "METRICS_TOKEN" & when running the Repo Generator - set Metrics to <code>true</code> 
+Create a Personal Access Token & create a repo secret called "METRICS_TOKEN" & when running the Repo Generator - set Metrics to <code>true</code> 
 
 <img src="https://github.com/MarketingPip/Awesome-Repo-Template/blob/main/metrics.plugin.stargazers.svg"></img>
 
@@ -121,7 +133,7 @@ Create a Personal Access Token & create a secret in this repo called "METRICS_TO
  <br>	 <br>	 <br>	 <br>	 <br>	 <br>	 <br>	 <br>	 <br>	
 </details>
 
-	
+
 	
 </details>
 
