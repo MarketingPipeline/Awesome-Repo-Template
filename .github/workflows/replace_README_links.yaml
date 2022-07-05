@@ -4,16 +4,16 @@ on:
    workflow_dispatch:
      inputs:
        Replace_Links_In_Markdown:
-         description: 'Replace all matches from repo_config.json settings?'
+         description: 'Update all links'
          required: false
          default: 'true'
        Generate_Table_Of_Contents:
-        description: 'Generate Table Of Contents?'
+        description: 'Generate Table Of Contents'
         required: false
         default: 'true'
         
        Generate_Metrics_File:
-        description: 'Generate a Metrics Image File?'
+        description: 'Generate Metrics Image File'
         required: false
         default: 'false'
 
