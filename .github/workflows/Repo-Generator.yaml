@@ -9,17 +9,16 @@ on:
          required: false
        Update_Code_Of_Conduct_EMAIL:
          description: 'Update Code Of Conduct Email'
+         type: boolean
          required: false
-         default: 'False'  
        Generate_Table_Of_Contents:
         description: 'Generate Table Of Contents'
+        type: boolean
         required: false
-        default: 'False'
-        
        Generate_Metrics_File:
         description: 'Generate Metrics Image File'
+        type: boolean
         required: false
-        default: 'False'
 
 
 jobs:
