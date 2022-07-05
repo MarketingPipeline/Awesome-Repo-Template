@@ -68,15 +68,15 @@ Edit the repo_config.json file & set "REPLACE_TEXT_WITH" - to your username & re
 To generate tables of contents automatically use anywhere in your README.md file a comment like so
 
    
-```html
- <!-- toc -->
+&lt;!-- toc -->
 
+&lt;!-- tocstop -->
 
- <!-- tocstop -->
-```
 
 And when running the Repo Generator - set Metrics to <code>true</code> 
 
+
+<b><i>Note:</i></b> Only 1 table of contents can be generated in a README 
  <br>	 <br>	 <br>	 <br>	 <br>	 <br>	 <br>	 <br>	 <br>	
 </details>
 
