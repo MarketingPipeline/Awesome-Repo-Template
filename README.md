@@ -159,6 +159,8 @@ You will have an output that looks like this!
 
 <!-- toc -->
 
+- [Features](#features)
+- [How to use](#how-to-use)
 - [Contributing ![GitHub](https://img.shields.io/github/contributors/MarketingPipeline/Awesome-Repo-Template)](#contributing-githubhttpsimgshieldsiogithubcontributorsmarketingpipelineawesome-repo-template)
 - [License ![GitHub](https://img.shields.io/github/license/MarketingPipeline/Awesome-Repo-Template)](#license-githubhttpsimgshieldsiogithublicensemarketingpipelineawesome-repo-template)
 
