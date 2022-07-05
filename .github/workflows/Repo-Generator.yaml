@@ -5,8 +5,8 @@ on:
      inputs:
        Replace_Links_In_Markdown:
          description: 'Update all links'
+         type: boolean
          required: false
-         default: 'False'
        Update_Code_Of_Conduct_EMAIL:
          description: 'Update Code Of Conduct Email'
          required: false
