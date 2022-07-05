@@ -22,15 +22,17 @@
 
 - A configurable workflow action to:  
   - update all links with your own with EASE!
-  - generate table of contents
-  - generate metrics
-- [Pull request template](.github/pull_request_template.md)
-- Issue templates for [bug reports](.github/ISSUE_TEMPLATE/bug_report.md) and
-  [feature requests](.github/ISSUE_TEMPLATE/feature_request.md)
-- [Contributor guidelines](CONTRIBUTING.md)
-- [Code of Conduct](CODE_OF_CONDUCT.md)
-- [This readme](README.md)
-- [License file](LICENSE) 
+  - update Code Of Conduct E-mail with your own!
+  - generate table of contents in your README
+  - generate a star-gazer metrics image
+- Time Saving Files:
+  - [Pull request template](.github/pull_request_template.md)
+  - Issue templates for [bug reports](.github/ISSUE_TEMPLATE/bug_report.md) and
+    [feature requests](.github/ISSUE_TEMPLATE/feature_request.md)
+  - [Contributor guidelines](CONTRIBUTING.md)
+  - [Code of Conduct](CODE_OF_CONDUCT.md)
+  - [README Template](README.md)
+  - [License file](LICENSE) 
 
 
 
