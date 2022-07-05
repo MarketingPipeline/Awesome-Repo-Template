@@ -1,7 +1,3 @@
-
-
-
-
 # Awesome-Repo-Template
 
 
@@ -20,7 +16,7 @@
    <a href="https://github.com/MarketingPipeline/Media-Element.js">
     <img title="Star on GitHub" src="https://img.shields.io/github/stars/MarketingPipeline/Media-Element.js.svg?style=social&label=Star">
   </a>
-  <a href="https://github.com/MarketingPipeline/Media-Element.js/fork">
+  <a href="https://github.com/MarketingPipeline/Awesome-Repo-Template/fork">
     <img title="Fork on GitHub" src="https://img.shields.io/github/forks/MarketingPipeline/Media-Element.js.svg?style=social&label=Fork">
   </a>
    </p>  
@@ -33,6 +29,9 @@ A awesome repo template to use for your next project
 
 <!-- toc -->
 
+- [Example and usage](#example-and-usage)
+- [Contributing ![GitHub](https://img.shields.io/github/contributors/MarketingPipeline/Media-Element.js)](#contributing-githubhttpsimgshieldsiogithubcontributorsmarketingpipelinemedia-elementjs)
+- [License ![GitHub](https://img.shields.io/github/license/MarketingPipeline/Media-Element.js)](#license-githubhttpsimgshieldsiogithublicensemarketingpipelinemedia-elementjs)
 
 <!-- tocstop -->
 
@@ -117,13 +116,13 @@ Create a Personal Access Token & create a secret in this repo called "METRICS_TO
 Want to improve this project? Create a pull request with detailed changes / improvements! If approved you will be added to the list of contributors of this awesome project!
 
 See also the list of
-[contributors](https://github.com/MarketingPipeline/Media-Element.js/graphs/contributors) who
+[contributors](https://github.com/MarketingPipeline/Awesome-Repo-Template/graphs/contributors) who
 participate in this project.
 
 ## License ![GitHub](https://img.shields.io/github/license/MarketingPipeline/Media-Element.js)
 
 This project is licensed under the GPL-3.0 License - see the
-[LICENSE.md](https://github.com/MarketingPipeline/Media-Element.js/blob/main/LICENSE) file for
+[LICENSE.md](https://github.com/MarketingPipeline/Awesome-Repo-Template/blob/main/LICENSE) file for
 details.
 
 
