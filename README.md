@@ -38,7 +38,7 @@
 
 
 
-## Example & Usage
+## How to use
 
 
 
