@@ -7,7 +7,11 @@ on:
          description: 'Replace all matches from repo_config.json settings?'
          required: false
          default: 'true'
-
+       Generate_Table_Of_Contents:
+        description: 'Generate Table Of Contents?'
+        required: false
+        default: 'true'
+        
        Generate_Metrics_File:
         description: 'Generate a Metrics Image File?'
         required: false
@@ -45,6 +49,15 @@ jobs:
           plugin_contributors: yes
           # some logic to run if flag==true
 
+
+
+
+      - name: Generating Table Of Contents
+        if: ${{  github.event.inputs.Generate_Table_Of_Contents == 'true' }}
+        run: |
+          npx markdown-toc README.md -i
+      
+ 
       - name: Commiting updates
         run: |
           git config --global user.name "github-actions[bot]"
