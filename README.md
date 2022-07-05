@@ -6,16 +6,6 @@
        src="https://user-images.githubusercontent.com/86180097/177226706-2948933e-d3fc-4940-9f62-fab83bea48fe.png"
     /> </img></a> </div>  
 
-[![Github license](https://img.shields.io/github/license/gfmio/awesome-github-template.svg "Github license")](https://github.com/gfmio/awesome-github-template/blob/master/LICENSE)
-[![Open issues](https://img.shields.io/github/issues/gfmio/awesome-github-template.svg "Open issues")](https://github.com/gfmio/awesome-github-template/issues)
-[![Closed issues](https://img.shields.io/github/issues-closed/gfmio/awesome-github-template.svg "Closed issues")](https://github.com/gfmio/awesome-github-template/issues?utf8=✓&q=is%3Aissue+is%3Aclosed)
-[![Open Pull Requests](https://img.shields.io/github/issues-pr/gfmio/awesome-github-template.svg "Open Pull Requests")](https://github.com/gfmio/awesome-github-template/pulls)
-[![Closed Pull Requests](https://img.shields.io/github/issues-pr-closed/gfmio/awesome-github-template.svg "Closed Pull Requests")](https://github.com/gfmio/awesome-github-template/pulls?utf8=✓&q=is%3Apr+is%3Aclosed)
-[![Commit activity](https://img.shields.io/github/commit-activity/m/gfmio/awesome-github-template.svg "Commit activity")](https://github.com/gfmio/awesome-github-template/graphs/commit-activity)
-[![GitHub contributors](https://img.shields.io/github/contributors/gfmio/awesome-github-template.svg "Github contributors")](https://github.com/gfmio/awesome-github-template/graphs/contributors)
-[![Last commit](https://img.shields.io/github/last-commit/gfmio/awesome-github-template.svg "Last commit")](https://github.com/gfmio/awesome-github-template/commits/master)
-
-
 <p align="center">
   <b>A awesome repo template to use for your next project</b>
 
@@ -29,6 +19,16 @@
     <img title="Fork on GitHub" src="https://img.shields.io/github/forks/MarketingPipeline/Awesome-Repo-Template.svg?style=social&label=Fork">
   </a>
    </p>  
+
+[![Github license](https://img.shields.io/github/license/gfmio/awesome-github-template.svg "Github license")](https://github.com/gfmio/awesome-github-template/blob/master/LICENSE)
+[![Open issues](https://img.shields.io/github/issues/gfmio/awesome-github-template.svg "Open issues")](https://github.com/gfmio/awesome-github-template/issues)
+[![Closed issues](https://img.shields.io/github/issues-closed/gfmio/awesome-github-template.svg "Closed issues")](https://github.com/gfmio/awesome-github-template/issues?utf8=✓&q=is%3Aissue+is%3Aclosed)
+[![Open Pull Requests](https://img.shields.io/github/issues-pr/gfmio/awesome-github-template.svg "Open Pull Requests")](https://github.com/gfmio/awesome-github-template/pulls)
+[![Closed Pull Requests](https://img.shields.io/github/issues-pr-closed/gfmio/awesome-github-template.svg "Closed Pull Requests")](https://github.com/gfmio/awesome-github-template/pulls?utf8=✓&q=is%3Apr+is%3Aclosed)
+[![Commit activity](https://img.shields.io/github/commit-activity/m/gfmio/awesome-github-template.svg "Commit activity")](https://github.com/gfmio/awesome-github-template/graphs/commit-activity)
+[![GitHub contributors](https://img.shields.io/github/contributors/gfmio/awesome-github-template.svg "Github contributors")](https://github.com/gfmio/awesome-github-template/graphs/contributors)
+[![Last commit](https://img.shields.io/github/last-commit/gfmio/awesome-github-template.svg "Last commit")](https://github.com/gfmio/awesome-github-template/commits/master)
+
 
 
 
