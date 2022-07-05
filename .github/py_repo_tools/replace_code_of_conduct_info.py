@@ -13,7 +13,7 @@ config = json.load(f)
 FileName = "CODE_OF_CONDUCT.md"
 
 # Replace with string
-Text_To_Replace = "example@helloworld.com"
+Text_To_Replace = "example@hello.com"
 
 # Replace with JSON value
 Text_To_Replace_With = config['CODE_OF_CONDUCT']
