@@ -138,6 +138,9 @@ You will have an output that looks like this!
 
 <!--Copy & paste whatever buttons you need!-->
 
+_Repo metadata_
+
+	
 [![Github license](https://img.shields.io/github/license/MarketingPipeline/Awesome-Repo-Template.svg "Github license")](https://github.com/MarketingPipeline/Awesome-Repo-Template/blob/master/LICENSE)
 [![Open issues](https://img.shields.io/github/issues/MarketingPipeline/Awesome-Repo-Template.svg "Open issues")](https://github.com/MarketingPipeline/Awesome-Repo-Template/issues)
 [![Closed issues](https://img.shields.io/github/issues-closed/MarketingPipeline/Awesome-Repo-Template.svg "Closed issues")](https://github.com/MarketingPipeline/Awesome-Repo-Template/issues?utf8=✓&q=is%3Aissue+is%3Aclosed)
@@ -146,8 +149,39 @@ You will have an output that looks like this!
 [![Commit activity](https://img.shields.io/github/commit-activity/m/MarketingPipeline/Awesome-Repo-Template.svg "Commit activity")](https://github.com/MarketingPipeline/Awesome-Repo-Template/graphs/commit-activity)
 [![GitHub contributors](https://img.shields.io/github/contributors/MarketingPipeline/Awesome-Repo-Template.svg "Github contributors")](https://github.com/MarketingPipeline/Awesome-Repo-Template/graphs/contributors)
 [![Last commit](https://img.shields.io/github/last-commit/MarketingPipeline/Awesome-Repo-Template.svg "Last commit")](https://github.com/MarketingPipeline/Awesome-Repo-Template/commits/master)
-<img alt="Custom Shield.io Button" src="https://img.shields.io/badge/Custom-Button-blue.svg?style=flat-square"></img>
+[![GitHub tag](https://img.shields.io/github/tag/MarketingPip/Awesome-Repo-Template?include_prereleases=&sort=semver&color=blue)](https://github.com/MarketingPip/Awesome-Repo-Template/releases/)
 
+
+
+_Social buttons_
+
+[![MarketingPip - Awesome-Repo-Template](https://img.shields.io/static/v1?label=MarketingPip&message=Awesome-Repo-Template&color=blue&logo=github)](https://github.com/MarketingPip/Awesome-Repo-Template "Go to GitHub repo")
+[![stars - Awesome-Repo-Template](https://img.shields.io/github/stars/MarketingPip/Awesome-Repo-Template?style=social)](https://github.com/MarketingPip/Awesome-Repo-Template)
+[![forks - Awesome-Repo-Template](https://img.shields.io/github/forks/MarketingPip/Awesome-Repo-Template?style=social)](https://github.com/MarketingPip/Awesome-Repo-Template)
+
+
+
+_Call-to-Action buttons_
+
+
+
+[![Use this template](https://img.shields.io/badge/Generate-Use_this_template-2ea44f?style=for-the-badge)](https://github.com/MarketingPip/Awesome-Repo-Template/generate)
+
+[![View site - GH Pages](https://img.shields.io/badge/View_site-GH_Pages-2ea44f?style=for-the-badge)](https://marketingpip.github.io/Awesome-Repo-Template/)
+
+
+_Documentation button_
+
+
+[![view - Documentation](https://img.shields.io/badge/view-Documentation-blue?style=for-the-badge)](/README.MD "Go to project documentation")
+
+
+_Custom button_
+
+<img alt="Custom Shield.io Button" src="https://img.shields.io/badge/Custom-Button-blue.svg?style=flat-square"></img>	
+
+
+<br>	 <br>	 <br>	 <br>	 <br>	 <br>	 <br>	 <br>	 <br>	
 </details>
 	
 <br>	 
