@@ -16,7 +16,7 @@ FileName = "CODE_OF_CONDUCT.md"
 Text_To_Replace = "example@hello.com"
 
 # Replace with JSON value
-Text_To_Replace_With = config['CODE_OF_CONDUCT']
+Text_To_Replace_With = config['CODE_OF_CONDUCT_EMAIL']
 
 # Closing file
 f.close()
