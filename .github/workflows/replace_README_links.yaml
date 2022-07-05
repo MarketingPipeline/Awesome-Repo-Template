@@ -20,6 +20,7 @@ jobs:
     runs-on: ubuntu-20.04
     steps:
       - uses: actions/checkout@v2
+      - uses: lowlighter/metrics@v3.24   
       - name: Updating links in README content
         if: ${{  github.event.inputs.Replace_Links_In_Markdown == 'true' }}
         run: |
@@ -30,7 +31,7 @@ jobs:
           git add -A
           git commit -m "Updated links in README content"
           git push
-      - uses: lowlighter/metrics@v3.24    
+      
       - name: Generating Metrics Image
       
         if: ${{  github.event.inputs.Generate_Metrics_File  == 'true' }}
