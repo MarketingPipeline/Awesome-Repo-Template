@@ -62,7 +62,7 @@ jobs:
         if: ${{  github.event.inputs.Generate_Metrics_File  == 'true' }}
         
         run: |
-          git mv -f "~/work/${{ github.event.repository.name }}/${{ github.event.repository.name }}/metrics.plugin.stargazers.svg" "~/work/${{ github.event.repository.name }}/${{ github.event.repository.name }}/.github"
+          git mv -f ~/work/${{ github.event.repository.name }}/${{ github.event.repository.name }}/metrics.plugin.stargazers.svg ~/work/${{ github.event.repository.name }}/${{ github.event.repository.name }}/.github
     
 
       ### Table Of Contents    
