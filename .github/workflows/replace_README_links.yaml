@@ -55,7 +55,7 @@ jobs:
       - name: Generating Table Of Contents
         if: ${{  github.event.inputs.Generate_Table_Of_Contents == 'true' }}
         run: |
-          npx markdown-toc-gen README.md -i
+          npx markdown-toc-gen update README.md 
       
  
       - name: Commiting updates
