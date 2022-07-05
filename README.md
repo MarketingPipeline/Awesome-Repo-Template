@@ -87,8 +87,7 @@ Edit the repo_config.json file & set the value for "REPLACE_TEXT_WITH" - to your
 
        MyUserName/My-Repo-Name
 
-
-And run the Repo Generator in Actions and make sure Replace Text is set to <code> true</code>
+And run the Repo Generator in Actions and make sure "Update all links" is set to <code> true</code>
  <br>	 <br>	 <br>	 <br>	 <br>	 <br>	 <br>	 <br>	 <br>	
 </details>
  <br>		
@@ -107,7 +106,7 @@ To generate tables of contents automatically use anywhere in your README.md file
 &lt;!-- tocstop -->
 
 
-And when running the Repo Generator in Actions - set Metrics to <code>true</code> 
+And when running the Repo Generator in Actions - set "Generate Table Of Contents" to <code>true</code> 
 
 
 <b><i>Note:</i></b> Only 1 table of contents can be generated in a README 
@@ -124,7 +123,7 @@ And when running the Repo Generator in Actions - set Metrics to <code>true</code
 <details><summary>How to Generate<b>Metrics</b>:</summary>
 <br>	
  
-Create a Personal Access Token & create a repo secret called "METRICS_TOKEN" & when running the Repo Generator - set Metrics to <code>true</code> 
+Create a Personal Access Token & create a repo secret called "METRICS_TOKEN" & when running the Repo Generator - set "Generate Metrics Image File" to <code>true</code> 
 
 <img src="https://github.com/MarketingPip/Awesome-Repo-Template/blob/main/metrics.plugin.stargazers.svg"></img>
 
