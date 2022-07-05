@@ -85,7 +85,7 @@ jobs:
         if: ${{  github.event.inputs.Generate_Metrics_File  == 'true' }}
         
         run: |
-          sudo mv ~/metrics.plugin.stargazers.svg ~/.github
+          git mv ~/metrics.plugin.stargazers.svg ~/.github
       - name: Updating Code Of Conducs
         
         run: |
