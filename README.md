@@ -190,7 +190,7 @@ _Custom button_
 
 <!-- toc -->
 
-- [Features](#features)
+- [Features:](#features)
 - [Example and Usage](#example-and-usage)
 - [Contributing ![GitHub](https://img.shields.io/github/contributors/MarketingPipeline/Awesome-Repo-Template)](#contributing-githubhttpsimgshieldsiogithubcontributorsmarketingpipelineawesome-repo-template)
 - [License ![GitHub](https://img.shields.io/github/license/MarketingPipeline/Awesome-Repo-Template)](#license-githubhttpsimgshieldsiogithublicensemarketingpipelineawesome-repo-template)
