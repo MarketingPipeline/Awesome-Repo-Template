@@ -1,23 +1,17 @@
-name: Test 71485088
+name: Repo Generator
 
 on:
    workflow_dispatch:
      inputs:
-       Files:
-         description: 'URL(s) or File(s) to take screenshot of (seperate by comma):'
-         required: true
-         default: "https://github.com,"
-       
+       Replace_Links_In_Markdown:
+         description: 'Replace all matches from repo_config.json settings?'
+         required: false
+         default: 'true'
 
-       Directory_To_Get_HTML_File:
-         description: 'The directory name to save screenshots to (example : path/to/directory'
-         required: False
-         default: 'false'
-
-       Directory_To_Save_HTML_File:
-        description: 'URL or File'
-        required: True
-        default: 'URL'
+       Generate_Metrics_File:
+        description: 'Generate a Metrics Image File?'
+        required: false
+        default: 'false'
 
 
 jobs:
@@ -27,7 +21,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Updating links in README content
-        if: ${{  github.event.inputs.Directory_To_Get_HTML_File == 'true' }}
+        if: ${{  github.event.inputs.Replace_Links_In_Markdown == 'true' }}
         run: |
           sudo apt-get install python3
           python3 .github/py_repo_tools/replace_repo_links.py
@@ -36,11 +30,28 @@ jobs:
           git add -A
           git commit -m "Updated links in README content"
           git push
-      - name: Run-me if FLAG is false
-        if: ${{  github.event.inputs.Directory_To_Get_HTML_File  == 'false' }}
-        run: |
-          echo "FALSE"
+      - uses: lowlighter/metrics@v3.24    
+      - name: Generating Metrics Image
+      
+        if: ${{  github.event.inputs.Generate_Metrics_File  == 'true' }}
+        with:
+          filename:  metrics.plugin.stargazers.svg
+          plugin_stargazers_charts_type: chartist
+          token: ${{ secrets.METRICS_TOKEN }}
+          
+ 
+          
+          base: ""
+          
+          config_octicon: yes
+          
+          plugin_stargazers: yes
+          plugin_contributors: yes
           # some logic to run if flag==true
 
+
+
+
+ 
 
 
