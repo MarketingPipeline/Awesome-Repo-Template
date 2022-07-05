@@ -39,11 +39,11 @@ jobs:
       ### Metric Images
       
       - name: Generating Metrics Image
-      
         if: ${{  github.event.inputs.Generate_Metrics_File  == 'true' }}
         uses: lowlighter/metrics@v3.24
         with:
-          filename:  metrics.plugin.stargazers.svg
+          filename:  stargazers-metrics.svg
+          filepath: /.github/
           plugin_stargazers_charts_type: chartist
           token: ${{ secrets.METRICS_TOKEN }}
           
@@ -57,12 +57,12 @@ jobs:
           plugin_contributors: yes
       
 
-      - name: Move Metrics Image
+    ##  - name: Move Metrics Image
       
-        if: ${{  github.event.inputs.Generate_Metrics_File  == 'true' }}
+      #  if: ${{  github.event.inputs.Generate_Metrics_File  == 'true' }}
         
-        run: |
-          git mv -f ~/work/${{ github.event.repository.name }}/${{ github.event.repository.name }}/metrics.plugin.stargazers.svg ~/work/${{ github.event.repository.name }}/${{ github.event.repository.name }}/.github
+       # run: |
+        #  git mv -f ~/work/${{ github.event.repository.name }}/${{ github.event.repository.name }}/metrics.plugin.stargazers.svg ~/work/${{ github.event.repository.name }}/${{ github.event.repository.name }}/.github
     
 
       ### Table Of Contents    
