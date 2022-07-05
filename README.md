@@ -16,9 +16,7 @@
    </p>  
 
 
-
-
-## Features
+## Features:
 
 - A configurable workflow action to:  
   - update all links with your own with EASE!
@@ -47,12 +45,12 @@
 <details><summary>How to use this <b>template</b>:</summary>
  <br>		
  
- To run any of these tasks you MUST be in the <b>Action workflow section</b>
+ To run any of these tasks you MUST be in the <b>Actions section</b>
  
- <details><summary>How to access <b>Action Workflow</b></summary>
+ <details><summary>How to find the <b>Action</b></summary>
  
- ![image](https://user-images.githubusercontent.com/86180097/177250629-591f1808-f332-4faf-bf27-800421b72072.png)
- 
+![image](https://user-images.githubusercontent.com/86180097/177279130-d00e60fa-5468-40e3-8414-2b928967ef60.png)
+
 </details>	
 
 <br>	 
@@ -61,7 +59,7 @@
 <details><summary>How to replace all <b>links</b> with your own:</summary>
 <br>	
 	
-Edit the repo_config.json file & set the value for "REPLACE_TEXT_WITH" - to your username & repo name like the following example 
+Edit the [repo_config.json](.github/py_repo_tools/repo_config.json) file & set the value for "REPLACE_TEXT_WITH" - to your username & repo name like the following example 
 
        MyUserName/My-Repo-Name
 
@@ -75,7 +73,7 @@ And run the Repo Generator in Actions and make sure "Update all links" is set to
 <details><summary>How to replace <b>e-mail</b> in <a href="CODE_OF_CONDUCT.md">Code of Conduct</a> with your own:</summary>
 <br>	
 	
-Edit the repo_config.json file & set the value for "CODE_OF_CONDUCT_EMAIL" - to your e-mail address like the following example. 
+Edit the [repo_config.json](.github/py_repo_tools/repo_config.json) file & set the value for "CODE_OF_CONDUCT_EMAIL" - to your e-mail address like the following example. 
 
        hello_world@github.com
 
