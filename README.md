@@ -63,7 +63,7 @@ Edit the [repo_config.json](.github/py_repo_tools/repo_config.json) file & set t
 
        MyUserName/My-Repo-Name
 
-And run the Repo Generator in Actions and make sure "Update all links" is set to <code> true</code>
+And run the Repo Generator in Actions - set "Update all links" to <code>checked</code>
  <br>	 <br>	 <br>	 <br>	 <br>	 <br>	 <br>	 <br>	 <br>	
 </details>
 
@@ -77,7 +77,7 @@ Edit the [repo_config.json](.github/py_repo_tools/repo_config.json) file & set t
 
        hello_world@github.com
 
-And run the Repo Generator in Actions and make sure "Update Code Of Conduct Info" is set to <code> true</code>
+And run the Repo Generator in Actions- set "Update Code Of Conduct Info" to <code>checked</code>
  <br>	 <br>	 <br>	 <br>	 <br>	 <br>	 <br>	 <br>	 <br>	
 </details>
  <br>		
@@ -96,7 +96,7 @@ To generate tables of contents automatically use anywhere in your README.md file
 &lt;!-- tocstop -->
 
 
-And when running the Repo Generator in Actions - set "Generate Table Of Contents" to <code>true</code> 
+And when running the Repo Generator in Actions - set "Generate Table Of Contents" to <code>checked</code>
 
 
 <b><i>WARNING:</i></b> Only 1 table of contents can be generated in a README - if you use more than one you WILL face problems. 
@@ -113,7 +113,7 @@ And when running the Repo Generator in Actions - set "Generate Table Of Contents
 <details><summary>How to Generate a <b>Metrics Image</b>:</summary>
 <br>	
  
-Create a Personal Access Token & create a repo secret called "METRICS_TOKEN" & when running the Repo Generator - set "Generate Metrics Image File" to <code>true</code> 
+Create a Personal Access Token & create a repo secret called "METRICS_TOKEN" & when running the Repo Generator - set "Generate Metrics Image File" to <code>checked</code> 
 
 You will have an output that looks like this!
 
