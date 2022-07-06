@@ -38,8 +38,8 @@ body:
         - Microsoft Edge
     validations:
       required: true
-      
-   - type: dropdown
+
+  - type: dropdown
     id: operating-systems
     attributes:
       label: What type of Operating System are you seeing the problem on?
@@ -50,7 +50,9 @@ body:
         - Mac
         - Other
     validations:
-      required: true   
+      required: true
+      
+
   - type: textarea
     id: logs
     attributes:
