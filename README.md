@@ -31,7 +31,8 @@
     [feature requests](.github/ISSUE_TEMPLATE/feature_request.yaml)
   - [Contributor guidelines](CONTRIBUTING.md)
   - [Code of Conduct](CODE_OF_CONDUCT.md)
-  - [To-Do List](.github/TO_DO.md)
+  - [Change-log](.github/CHANGE_LOG.md)
+  - [To-Do list](.github/TO_DO.md)
   - [README](README.md)
   - [License file](LICENSE) 
 
