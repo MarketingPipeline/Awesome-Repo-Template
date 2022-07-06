@@ -23,7 +23,7 @@
 - A configurable workflow action to:  
   - update all links with your own with EASE!
   - update Code Of Conduct E-mail with your own!
-  - generate table of contents in your README
+  - generate a table of contents in your README
   - generate a star-gazer metrics image
 - Time Saving Files:
   - [Pull request template](.github/pull_request_template.md)
