@@ -2,7 +2,7 @@
 import json
   
 # Opening JSON file
-f = open('repo_config.json')
+f = open('.github/py_repo_tools/repo_config.json')
   
 # returns JSON object as 
 # a dictionary
