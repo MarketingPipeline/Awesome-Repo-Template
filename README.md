@@ -50,9 +50,9 @@
  
  To run any of these tasks you MUST be in the <b>Actions section</b>
  
- <details><summary>How to find the <a href="https://github.com/MarketingPip/Awesome-Repo-Template/actions"><b>Action</b></a></summary>
+ <details><summary>How to find the <a href="https://github.com/MarketingPipeline/Awesome-Repo-Template/actions"><b>Action</b></a></summary>
  
-<a href="https://github.com/MarketingPip/Awesome-Repo-Template/actions"> ![image](https://user-images.githubusercontent.com/86180097/177446180-b71e50d1-df9d-4ef8-8d78-91184702cff0.png) </a>
+<a href="https://github.com/MarketingPipeline/Awesome-Repo-Template/actions"> ![image](https://user-images.githubusercontent.com/86180097/177446180-b71e50d1-df9d-4ef8-8d78-91184702cff0.png) </a>
 
 </details>	
 
@@ -152,15 +152,15 @@ _Repo metadata_
 [![Commit activity](https://img.shields.io/github/commit-activity/m/MarketingPipeline/Awesome-Repo-Template.svg "Commit activity")](https://github.com/MarketingPipeline/Awesome-Repo-Template/graphs/commit-activity)
 [![GitHub contributors](https://img.shields.io/github/contributors/MarketingPipeline/Awesome-Repo-Template.svg "Github contributors")](https://github.com/MarketingPipeline/Awesome-Repo-Template/graphs/contributors)
 [![Last commit](https://img.shields.io/github/last-commit/MarketingPipeline/Awesome-Repo-Template.svg "Last commit")](https://github.com/MarketingPipeline/Awesome-Repo-Template/commits/master)
-[![GitHub tag](https://img.shields.io/github/tag/MarketingPip/Awesome-Repo-Template?include_prereleases=&sort=semver&color=blue)](https://github.com/MarketingPip/Awesome-Repo-Template/releases/)
+[![GitHub tag](https://img.shields.io/github/tag/MarketingPipeline/Awesome-Repo-Template?include_prereleases=&sort=semver&color=blue)](https://github.com/MarketingPipeline/Awesome-Repo-Template/releases/)
 
 
 
 _Social buttons_
 
-[![MarketingPip - Awesome-Repo-Template](https://img.shields.io/static/v1?label=MarketingPip&message=Awesome-Repo-Template&color=blue&logo=github)](https://github.com/MarketingPip/Awesome-Repo-Template "Go to GitHub repo")
-[![stars - Awesome-Repo-Template](https://img.shields.io/github/stars/MarketingPip/Awesome-Repo-Template?style=social)](https://github.com/MarketingPip/Awesome-Repo-Template)
-[![forks - Awesome-Repo-Template](https://img.shields.io/github/forks/MarketingPip/Awesome-Repo-Template?style=social)](https://github.com/MarketingPip/Awesome-Repo-Template)
+[![MarketingPipeline - Awesome-Repo-Template](https://img.shields.io/static/v1?label=MarketingPipeline&message=Awesome-Repo-Template&color=blue&logo=github)](https://github.com/MarketingPipeline/Awesome-Repo-Template "Go to GitHub repo")
+[![stars - Awesome-Repo-Template](https://img.shields.io/github/stars/MarketingPipeline/Awesome-Repo-Template?style=social)](https://github.com/MarketingPipeline/Awesome-Repo-Template)
+[![forks - Awesome-Repo-Template](https://img.shields.io/github/forks/MarketingPipeline/Awesome-Repo-Template?style=social)](https://github.com/MarketingPipeline/Awesome-Repo-Template)
 
 
 
@@ -168,7 +168,7 @@ _Call-to-Action buttons_
 
 
 
-[![Use this template](https://img.shields.io/badge/Generate-Use_this_template-2ea44f?style=for-the-badge)](https://github.com/MarketingPip/Awesome-Repo-Template/generate)
+[![Use this template](https://img.shields.io/badge/Generate-Use_this_template-2ea44f?style=for-the-badge)](https://github.com/MarketingPipeline/Awesome-Repo-Template/generate)
 
 [![View site - GH Pages](https://img.shields.io/badge/View_site-GH_Pages-2ea44f?style=for-the-badge)](https://marketingpip.github.io/Awesome-Repo-Template/)
 
