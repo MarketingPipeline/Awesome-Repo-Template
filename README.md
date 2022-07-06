@@ -33,6 +33,7 @@
   - [Code of Conduct](CODE_OF_CONDUCT.md)
   - [Change-log](.github/CHANGE_LOG.md)
   - [To-Do list](.github/TO_DO.md)
+  - [Security Policy](.github/SECURITY.md)
   - [README](README.md)
   - [License file](LICENSE) 
 
@@ -77,11 +78,24 @@ And run the Repo Generator in Actions - set "Update all links" to <code>checked<
 <details><summary>How to replace <b>e-mail</b> in <a href="CODE_OF_CONDUCT.md">Code of Conduct</a> with your own:</summary>
 <br>	
 	
-Edit the [repo_config.json](.github/py_repo_tools/repo_config.json) file & set the value for "CODE_OF_CONDUCT_EMAIL" - to your e-mail address like the following example. 
+Edit the [repo_config.json](.github/py_repo_tools/repo_config.json) file & set the value for "EMAIL" - to your e-mail address like the following example. 
 
        hello_world@github.com
 
 And run the Repo Generator in Actions- set "Update Code Of Conduct Info" to <code>checked</code>
+ <br>	 <br>	 <br>	 <br>	 <br>	 <br>	 <br>	 <br>	 <br>	
+</details>
+<br>	 
+<br>	 
+	
+<details><summary>How to replace <b>e-mail</b> in <a href=".github/SECURITY.md">Security Policy</a> with your own:</summary>
+<br>	
+	
+Edit the [repo_config.json](.github/py_repo_tools/repo_config.json) file & set the value for "EMAIL" - to your e-mail address like the following example. 
+
+       hello_world@github.com
+
+And run the Repo Generator in Actions- set "Update Security Info" to <code>checked</code>
  <br>	 <br>	 <br>	 <br>	 <br>	 <br>	 <br>	 <br>	 <br>	
 </details>
  <br>		
