@@ -1,5 +1,7 @@
 # Awesome-Repo-Template [![Awesome](https://awesome.re/badge.svg)](https://github.com/MarketingPipeline/Awesome-Repo-Template/)
-<img height=350 alt="Repo Banner - Awesome Repo Template" src="https://capsule-render.vercel.app/api?type=waving&color=c4a2bd&height=300&section=header&text=Awesome Repo Template&fontSize=70&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Easily setup your next repo!&descAlignY=60&descAlign=50"></img>
+
+<a href="https://github.com/MarketingPipeline/Awesome-Repo-Template/">
+<img height=350 alt="Repo Banner - Awesome Repo Template" src="https://capsule-render.vercel.app/api?type=waving&color=c4a2bd&height=300&section=header&text=Awesome Repo Template&fontSize=70&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Easily setup your next repo!&descAlignY=60&descAlign=50"></img></a>
 
 <p align="center">
   <b>A awesome repo template to kick-start your next project</b>
@@ -115,10 +117,13 @@ And when running the Repo Generator in Actions - set "Generate Table Of Contents
  
 Create a Personal Access Token & create a repo secret called "METRICS_TOKEN" & when running the Repo Generator - set "Generate Metrics Image File" to <code>checked</code> 
 
-You will have an output that looks like this!
+You will have an image generated that looks like this!
 
-<img src="metrics.plugin.stargazers.svg"></img>
+<img src="stargazers-metrics.svg"></img>
 
+It will be placed in the main repo under the filename <code>stargazers-metrics.svg</code> 
+
+<i>Note:</i> if someone knows how to change this please make a pull request with the image placed to .github folder!
 
 
  <br>	 <br>	 <br>	 <br>	 <br>	 <br>	 <br>	 <br>	 <br>	
@@ -207,7 +212,7 @@ _Custom button_
 
 
 
-## Contributing ![GitHub](https://img.shields.io/github/contributors/MarketingPipeline/Awesome-Repo-Template)
+## Contributing <a href="https://github.com/MarketingPipeline/Awesome-Repo-Template/graphs/contributors"> ![GitHub](https://img.shields.io/github/contributors/MarketingPipeline/Awesome-Repo-Template) </a>
 
 Want to improve this template? Create a pull request with detailed changes / improvements! If approved you will be added to the list of contributors of this awesome repo template!
 
@@ -215,9 +220,9 @@ See also the list of
 [contributors](https://github.com/MarketingPipeline/Awesome-Repo-Template/graphs/contributors) who
 participate in this project.
 
-## License ![GitHub](https://img.shields.io/github/license/MarketingPipeline/Awesome-Repo-Template)
+## License <a href="LICENSE"> ![GitHub](https://img.shields.io/github/license/MarketingPipeline/Awesome-Repo-Template) </a>
 
-This project is licensed under the GPL-3.0 License - see the
+This project is licensed under the MIT License - see the
 [LICENSE.md](https://github.com/MarketingPipeline/Awesome-Repo-Template/blob/main/LICENSE) file for
 details.
 
