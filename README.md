@@ -213,8 +213,8 @@ _Custom button_
 
 - [Features:](#features)
 - [Example and Usage](#example-and-usage)
-- [Contributing ![GitHub](https://img.shields.io/github/contributors/MarketingPipeline/Awesome-Repo-Template)](#contributing-githubhttpsimgshieldsiogithubcontributorsmarketingpipelineawesome-repo-template)
-- [License ![GitHub](https://img.shields.io/github/license/MarketingPipeline/Awesome-Repo-Template)](#license-githubhttpsimgshieldsiogithublicensemarketingpipelineawesome-repo-template)
+- [Contributing <a href="https://github.com/MarketingPipeline/Awesome-Repo-Template/graphs/contributors"> ![GitHub](https://img.shields.io/github/contributors/MarketingPipeline/Awesome-Repo-Template) </a>](#contributing-a-hrefhttpsgithubcommarketingpipelineawesome-repo-templategraphscontributors-githubhttpsimgshieldsiogithubcontributorsmarketingpipelineawesome-repo-template-a)
+- [License <a href="LICENSE"> ![GitHub](https://img.shields.io/github/license/MarketingPipeline/Awesome-Repo-Template) </a>](#license-a-hreflicense-githubhttpsimgshieldsiogithublicensemarketingpipelineawesome-repo-template-a)
 
 <!-- tocstop -->
 
