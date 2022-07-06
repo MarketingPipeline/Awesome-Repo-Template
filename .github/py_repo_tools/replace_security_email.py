@@ -10,7 +10,7 @@ config = json.load(f)
   
 
 # Define the filename here you want to replace content in
-FileName = "CODE_OF_CONDUCT.md"
+FileName = ".github/SECURITY.md"
 
 # Replace with string
 Text_To_Replace = "example@hello.com"
