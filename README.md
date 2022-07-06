@@ -27,8 +27,8 @@
   - generate a star-gazer metrics image
 - Time Saving Files:
   - [Pull request template](.github/pull_request_template.md)
-  - Issue templates for [bug reports](.github/ISSUE_TEMPLATE/bug_report.md) and
-    [feature requests](.github/ISSUE_TEMPLATE/feature_request.md)
+  - Issue templates for [bug reports](.github/ISSUE_TEMPLATE/bug_report.yaml) and
+    [feature requests](.github/ISSUE_TEMPLATE/feature_request.yaml)
   - [Contributor guidelines](CONTRIBUTING.md)
   - [Code of Conduct](CODE_OF_CONDUCT.md)
   - [To-Do List](.github/TO_DO.md)
