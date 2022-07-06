@@ -50,9 +50,9 @@
  
  To run any of these tasks you MUST be in the <b>Actions section</b>
  
- <details><summary>How to find the <b>Action</b></summary>
+ <details><summary>How to find the <a href="https://github.com/MarketingPip/Awesome-Repo-Template/actions"><b>Action</b></a></summary>
  
-![image](https://user-images.githubusercontent.com/86180097/177279130-d00e60fa-5468-40e3-8414-2b928967ef60.png)
+<a href="https://github.com/MarketingPip/Awesome-Repo-Template/actions"> ![image](https://user-images.githubusercontent.com/86180097/177446180-b71e50d1-df9d-4ef8-8d78-91184702cff0.png) </a>
 
 </details>	
 
