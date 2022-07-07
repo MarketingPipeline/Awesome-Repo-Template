@@ -25,6 +25,7 @@
   - update Code Of Conduct E-mail with your own!
   - update Security Policy E-mail with your own!
   - compress / optimize all images in repo!
+  - generate a Markdown styled [index file](index.html) with SEO details!
   - generate a table of contents in your README
   - generate a star-gazer metrics SVG image
 - Time Saving Files:
@@ -100,7 +101,22 @@ Edit the [repo_config.json](.github/py_repo_tools/repo_config.json) file & set t
 And run the Repo Generator in Actions- set "Update Security Info" to <code>checked</code>
  <br>	 <br>	 <br>	 <br>	 <br>	 <br>	 <br>	 <br>	 <br>	
 </details>
+<br>	 
+<br>	 
+	
+<details><summary>How to generate a <b>index.html</b> file</summary>
+<br>	
+	
+	
+A index.html file will be produced from your README content.
 
+SEO details such as Title, Description & OG images etc are auto-produced using your Repo details.
+
+<b>Note</b> Your README content will be rendered in Github Flavored Markdown using our tool [Markdown-Tag: Add Markdown to any HTML using a <md> tag](https://github.com/MarketingPipeline/Markdown-Tag)
+
+Go to the Repo Generator in Actions- set "Generate Index File" to <code>checked</code>
+ <br>	 <br>	 <br>	 <br>	 <br>	 <br>	 <br>	 <br>	 <br>	
+</details>
 <br>	 
 <br>	 
 	
