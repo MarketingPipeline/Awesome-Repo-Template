@@ -32,8 +32,8 @@
   - [Pull request template](.github/pull_request_template.md)
   - Issue templates for [bug reports](.github/ISSUE_TEMPLATE/bug_report.yaml) and
     [feature requests](.github/ISSUE_TEMPLATE/feature_request.yaml)
-  - [Contributor guidelines](CONTRIBUTING.md)
-  - [Code of Conduct](CODE_OF_CONDUCT.md)
+  - [Contributor guidelines](.github/CONTRIBUTING.md)
+  - [Code of Conduct](.github/CODE_OF_CONDUCT.md)
   - [Change-log](.github/CHANGE_LOG.md)
   - [To-Do list](.github/TO_DO.md)
   - [Security Policy](.github/SECURITY.md)
