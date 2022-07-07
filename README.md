@@ -24,8 +24,9 @@
   - update all links with your own with EASE!
   - update Code Of Conduct E-mail with your own!
   - update Security Policy E-mail with your own!
+  - compress / optimize all images in repo!
   - generate a table of contents in your README
-  - generate a star-gazer metrics image
+  - generate a star-gazer metrics SVG image
 - Time Saving Files:
   - [Pull request template](.github/pull_request_template.md)
   - Issue templates for [bug reports](.github/ISSUE_TEMPLATE/bug_report.yaml) and
@@ -97,6 +98,18 @@ Edit the [repo_config.json](.github/py_repo_tools/repo_config.json) file & set t
        hello_world@github.com
 
 And run the Repo Generator in Actions- set "Update Security Info" to <code>checked</code>
+ <br>	 <br>	 <br>	 <br>	 <br>	 <br>	 <br>	 <br>	 <br>	
+</details>
+
+<br>	 
+<br>	 
+	
+<details><summary>How to <b>compress / optimize</b> images in repo</summary>
+<br>	
+	
+<b><i>Note:</b></i> All images in repo will be compressed / optimized (SVG's are NOT supported)
+
+Go to the Repo Generator in Actions- set "Compress / Optimize Images" to <code>checked</code>
  <br>	 <br>	 <br>	 <br>	 <br>	 <br>	 <br>	 <br>	 <br>	
 </details>
  <br>		
