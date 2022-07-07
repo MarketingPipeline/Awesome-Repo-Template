@@ -27,6 +27,10 @@ on:
         description: 'Generate Metrics Image File'
         type: boolean
         required: false
+       Generate_Index_File:
+        description: 'Generate Index File'
+        type: boolean
+        required: false
 
 
 jobs:
@@ -77,7 +81,17 @@ jobs:
         if: ${{  github.event.inputs.Generate_Table_Of_Contents == 'true' }}
         run: |
           npx markdown-toc-gen update README.md 
-          
+
+
+      ### Generate Index File   
+      - name: Generating Index File
+        if: ${{  github.event.inputs.Generate_Index_File == 'true' }}
+        run: |
+          sudo apt-get install python3 
+          INPUT_STORE=${{ github.event.repository.url }} python3 .github/py_repo_tools/generate_index_file.py
+    
+
+
       ### Optimize / Compress Image   
       - name: Optimizing Images
         if: ${{  github.event.inputs.Compress_Images == 'true' }}
