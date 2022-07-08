@@ -1,4 +1,3 @@
-
 #!/bin/bash
 #####################################################
 #  Download Specific folders from Github using SVN
@@ -24,4 +23,4 @@ done
 
 # DOMAIN/USER/PROJECT/<TRUNK||BRANCH>/FOLDER
 echo Exporting $GHDOMAIN${SECT[0]}/${SECT[1]}/$BRANCH$FOLDER
-svn --force export $GHDOMAIN${SECT[0]}/${SECT[1]}/$BRANCH$FOLDER ./
+svn export $GHDOMAIN${SECT[0]}/${SECT[1]}/$BRANCH$FOLDER
