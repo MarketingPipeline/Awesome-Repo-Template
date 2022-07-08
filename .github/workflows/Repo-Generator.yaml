@@ -31,7 +31,10 @@ on:
         description: 'Generate Index File'
         type: boolean
         required: false
-
+       Download_Files_Or_Folder:
+        description: 'Download a file or folder from a GitHub Repo'
+        required: False
+        default: ''
 
 jobs:
   Repo_Builder:
@@ -111,7 +114,18 @@ jobs:
         if: ${{  github.event.inputs.Update_Security_Policy_EMAIL == 'true' }}
         run: |
           sudo apt-get install python3
-          python3 .github/py_repo_tools/replace_security_policy_email.py          
+          python3 .github/py_repo_tools/replace_security_policy_email.py        
+          
+          
+      ### Download a file or folder from a GitHub repo    
+      - name: Downloading file / folder from GitHub Repo
+        if: ${{  github.event.inputs.Download_Files_Or_Folder != ''}}
+        run: |
+          chmod +x .github/py_repo_tools/shell_scripts/github_downloader.sh
+          .github/py_repo_tools/shell_scripts/github_downloader.sh ${{  github.event.inputs.Download_Files_Or_Folder}} 
+  
+
+          
       ### Commit updates (if any)
       - name: Commiting updates
         run: |
