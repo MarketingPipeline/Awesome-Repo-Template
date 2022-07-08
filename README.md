@@ -24,6 +24,7 @@
   - update all links with your own with EASE!
   - update Code Of Conduct E-mail with your own!
   - update Security Policy E-mail with your own!
+  - download files & folder from another GitHub Repo
   - compress / optimize all images in repo!
   - generate a Markdown styled [index file](index.html) with SEO details!
   - generate a table of contents in your README
@@ -101,6 +102,46 @@ Edit the [repo_config.json](.github/py_repo_tools/repo_config.json) file & set t
 And run the Repo Generator in Actions- set "Update Security Info" to <code>checked</code>
  <br>	 <br>	 <br>	 <br>	 <br>	 <br>	 <br>	 <br>	 <br>	
 </details>
+
+<br>	 
+<br>	 
+	
+<details><summary>How to <b>download</b>  file(s) / folder(s) from another GitHub repo</summary>
+<br>	
+	
+<br>
+<h3> WARNING</h3>
+files downloaded from a repo containing the same name in your current repo will be OVER-WRITTEN.
+<br> <br> <br> <br> 
+	
+In the Repo Generator Actions- set "Download a file or folder from a GitHub Repo" to a GitHub file path or folder.
+
+
+Example(s)
+
+
+To download a <b>single file</b>:
+
+     https://github.com/Repo-Owner-UserName/Repo-Name/blob/master/README.md
+
+
+To download a specific <b>folder</b>:
+
+     https://github.com/Repo-Owner-UserName/Repo-Name/blob/master/Folder-Name
+     
+ 
+
+To download all files in a repo <b>folder</b>:
+
+     https://github.com/Repo-Owner-UserName/Repo-Name/blob/master/
+     
+     
+
+Note: File's will be placed into main repo path. 
+
+ <br>	 <br>	 <br>	 <br>	 <br>	 <br>	 <br>	 <br>	 <br>	
+</details>
+
 <br>	 
 <br>	 
 	
