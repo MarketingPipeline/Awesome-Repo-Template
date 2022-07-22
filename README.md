@@ -41,7 +41,10 @@
   - [Security Policy](.github/SECURITY.md)
   - [README](README.md)
   - [License file](LICENSE) 
-
+   - GitHub Bot Files
+       -  [config.yml](/.github/config.yml) file to modify multiple bot's behaviours.
+       -  [issue_label_bot.yaml](/.github/issue_label_bot.yaml) file to use the issue adder GitHub bot. [Activate it or check its documentation](https://github.com/marketplace/issue-label-bot).
+       -  [settings.yml](/.github/settings.yml) file to use the popular settings GitHub bot. [Activate it or check its documentation](https://probot.github.io/apps/settings/).
 
 
 
@@ -291,10 +294,24 @@ _Custom button_
 <!-- tocstop -->
 
 </details>
+	
+ 
+	
+<br>	 
+<details>
+<summary> How to setup GitHub bots </summary>
 
+<br>
+These are bots that are prepared and configured for this template. They need to be activated to properly work.
 
+<br>
+<br>
 
+1. The `issue_label_bot.yaml` file depends on the **issue label bot** [Activate it or check its documentation](https://github.com/marketplace/issue-label-bot)(✓ highly recommended).
+2. The `settings.yml` file depends on the **settings label bot** [Activate it or check its documentation](https://probot.github.io/apps/settings/) (optional).
+3. The `config.yml` file depends on the bot **welcome bot** [Activate it or check its documentation](https://probot.github.io/apps/welcome/) and [to-do bot](https://probot.github.io/apps/todo/) (optional).
 
+</details>
 
 
 
